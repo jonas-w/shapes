@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"Terminus 9";
+	font:							"MesloLGS NF Regular 13";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					"";
@@ -68,7 +68,7 @@ inputbar {
 listview {
     background-color:               @al;
     padding:                        10px 10px 10px 10px;
-    columns:                        3;
+    columns:                        1;
     lines:                          10;
     spacing:                        5px;
     cycle:                          true;
@@ -112,7 +112,7 @@ element-text {
 
 element selected {
     background-color:               @bg3;
-    text-color:                     @bg;
+    text-color:                     @fg;
 	border:							0px 0px 0px 0px;
     border-radius:                  12px;
     border-color:                  	@bg1;
